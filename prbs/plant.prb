@@ -1,0 +1,18 @@
+[DESCRIPTION]
+SOURCE1=http://mmmf.msu.ru/archive/20052006/z5/11.html
+TEXT1=One plant employs three friends: turner, fitter and welder.
+TEXT2=Their surnames are Borisov, Ivanov and Semenov.
+TEXT3=Match the surnames to the occupations.
+TEXT4=
+TEXT5=1. The fitter has neither brothers, nor sisters.
+TEXT6=2. He is the youngest of the friends.
+TEXT7=3. Semenov is married to Borisov's sister and he is older than the turner
+VAR1=Job,Turner,Fitter,Welder
+VAR2=Surname,Borisov,Ivanov,Semenov
+CONNECTWORD1=Job, is , isn't ,Surname
+CONNECTWORD2=Surname, is , isn't ,Job
+CONNECTWORD3=,,,
+[ORIG]
+STMT1=,Fitter,Borisov,False,-
+STMT2=,Turner,Semenov,False,-
+STMT3=,Fitter,Semenov,False,-

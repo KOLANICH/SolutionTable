@@ -1,0 +1,20 @@
+[DESCRIPTION]
+SOURCE1=http://mmmf.msu.ru/archive/20052006/z5/11.html
+TEXT1=The three clown: Bim, Bom and Bam act in green, red and blue shirts.
+TEXT2=Their shoes are of the same colors.
+TEXT3=How are the clowns dressed?
+TEXT4=
+TEXT5=1. Colors of Bim's shoes and shirt match.
+TEXT6=2. Neither Bom's shirt, nor shoes are red.
+TEXT7=3. Bam wears green shoes and a shirt of a different color.
+TEXT8=4. All the clowns wear different shirts and different shoes.
+VAR1=Clown,Bim,Bom,Bam
+VAR2=Shoes,R,G,B
+CONNECTWORD1=Clown, has , doesn't have ,Shirt
+CONNECTWORD2=Clown, has , doesn't have ,Shoes
+CONNECTWORD5=Shoes, belongs to , doesn't belong to ,Clown
+CONNECTWORD6=Shoes, match , don't match ,Shirt
+CONNECTWORD7=,,,
+[ORIG]
+STMT1=2,Bom,R,False,X
+STMT2=3,Bam,G,True,X

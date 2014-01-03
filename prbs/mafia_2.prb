@@ -1,0 +1,14 @@
+[DESCRIPTION]
+TEXT1=Mafia game example.
+VAR1=Nick,pasha,vova,dima,petya
+VAR2=Role,maniac,maf,doc,psy
+CONNECTWORD1=Nick, is , isn't ,Role
+CONNECTWORD2=Role, is , isn't ,Nick
+CONNECTWORD3=,,,
+[ORIG]
+STMT1=,doc,pasha,False,-
+STMT2=,maniac,pasha,False,-
+STMT3=,maniac,vova,False,-
+STMT4=,psy,vova,False,-
+STMT5=,psy,dima,False,-
+STMT6=,maniac,dima,False,-
